@@ -3,6 +3,6 @@ def position_taken?(board, index)
   if board.include?("X") || board.include?("O")
   true 
   else board.include?(" ")
-    false 
+  false 
   end
 end   
